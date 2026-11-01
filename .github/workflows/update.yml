@@ -1,0 +1,29 @@
+name: Update domestic domains
+on:
+  schedule:
+    - cron: '23 */12 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - update_cn.py
+      - .github/workflows/update.yml
+permissions:
+  contents: write
+concurrency:
+  group: update-domestic-domains
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Convert upstream domain format
+        run: python3 update_cn.py
+      - name: Commit changed data
+        run: |
+          if git diff --quiet -- cn.list; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cn.list
+          git commit -m 'Update domestic domains from DustinWin'
+          git push
