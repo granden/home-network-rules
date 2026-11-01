@@ -1,0 +1,114 @@
+{
+  "lan_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/lan.conf",
+    "type": "RULE-SET"
+  },
+  "lan_ip": {
+    "url": "https://ruleset.skk.moe/List/ip/lan.conf",
+    "type": "RULE-SET"
+  },
+  "domestic_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/domestic.conf",
+    "type": "RULE-SET"
+  },
+  "cn": {
+    "url": "https://raw.githubusercontent.com/granden/home-network-rules/main/cn.list",
+    "type": "RULE-SET"
+  },
+  "icloud_direct": {
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/icloud.list",
+    "type": "RULE-SET"
+  },
+  "reject_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/reject.conf",
+    "type": "RULE-SET"
+  },
+  "reject_domainset": {
+    "url": "https://ruleset.skk.moe/List/domainset/reject.conf",
+    "type": "DOMAIN-SET"
+  },
+  "reject_non_ip_drop": {
+    "url": "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+    "type": "RULE-SET"
+  },
+  "reject_non_ip_no_drop": {
+    "url": "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+    "type": "RULE-SET"
+  },
+  "cdn_domainset": {
+    "url": "https://ruleset.skk.moe/List/domainset/cdn.conf",
+    "type": "DOMAIN-SET"
+  },
+  "cdn_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+    "type": "RULE-SET"
+  },
+  "stream_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/stream.conf",
+    "type": "RULE-SET"
+  },
+  "telegram_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/telegram.conf",
+    "type": "RULE-SET"
+  },
+  "apple_cdn": {
+    "url": "https://ruleset.skk.moe/List/domainset/apple_cdn.conf",
+    "type": "DOMAIN-SET"
+  },
+  "download_domainset": {
+    "url": "https://ruleset.skk.moe/List/domainset/download.conf",
+    "type": "DOMAIN-SET"
+  },
+  "download_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/download.conf",
+    "type": "RULE-SET"
+  },
+  "microsoft_cdn_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf",
+    "type": "RULE-SET"
+  },
+  "apple_cn_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/apple_cn.conf",
+    "type": "RULE-SET"
+  },
+  "apple_services": {
+    "url": "https://ruleset.skk.moe/List/non_ip/apple_services.conf",
+    "type": "RULE-SET"
+  },
+  "microsoft_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/microsoft.conf",
+    "type": "RULE-SET"
+  },
+  "ai_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/ai.conf",
+    "type": "RULE-SET"
+  },
+  "global_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/global.conf",
+    "type": "RULE-SET"
+  },
+  "direct_non_ip": {
+    "url": "https://ruleset.skk.moe/List/non_ip/direct.conf",
+    "type": "RULE-SET"
+  },
+  "reject_ip": {
+    "url": "https://ruleset.skk.moe/List/ip/reject.conf",
+    "type": "RULE-SET"
+  },
+  "telegram_ip": {
+    "url": "https://ruleset.skk.moe/List/ip/telegram.conf",
+    "type": "RULE-SET"
+  },
+  "stream_ip": {
+    "url": "https://ruleset.skk.moe/List/ip/stream.conf",
+    "type": "RULE-SET"
+  },
+  "domestic_ip": {
+    "url": "https://ruleset.skk.moe/List/ip/domestic.conf",
+    "type": "RULE-SET"
+  },
+  "china_ip": {
+    "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/classical/cn.list",
+    "type": "RULE-SET"
+  }
+}
